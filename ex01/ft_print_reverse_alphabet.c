@@ -1,3 +1,4 @@
+//Declares to the compiler what arguments are required.
 #include <unistd.h>
 
 int ft_putchar (char c)
@@ -8,7 +9,10 @@ int ft_putchar (char c)
 
 void ft_print_reverse_alphabet(void)
 {
+  //Declaring the char as a character.
   char character; 
+
+  //Declaring that character is equal to the letter 'z'.
 character = 'z';
   while (character >= 'a'){
     ft_putchar(character);
