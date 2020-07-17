@@ -13,11 +13,12 @@ void ft_print_reverse_alphabet(void)
   char character; 
 
   //Declaring that character is equal to the letter 'z'.
-character = 'z';
-  while (character >= 'a'){
-    ft_putchar(character);
-    character--;
-}
+  character = 'z';
+  while (character >= 'a')
+    {
+      ft_putchar(character);
+      character--;
+    }
 }
 
 int main()

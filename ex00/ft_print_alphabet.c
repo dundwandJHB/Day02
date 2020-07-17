@@ -15,10 +15,12 @@ void ft_print_alphabet(void)
 
   //Declaring variables, that alpha is equal to the letter 'a'.
   alpha = 'a';
-  while (alpha <= 'z') {
-    ft_putchar(alpha);
-    alpha++;
-}
+
+  while (alpha <= 'z') 
+    {
+      ft_putchar(alpha);
+      alpha++;
+    }
 }
 
 int main()
